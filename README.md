@@ -20,7 +20,7 @@ Se você ainda não tem o Python instalado, pode fazer o download no site oficia
 Siga os passos abaixo para configurar o ambiente e instalar as dependências do projeto.
 
 1. **Clone o repositório:**
-   git clone https://github.com/seu-usuario/business-control.git
+   git clone https://github.com/BrunaGravina/bussiness_control.git
 2. **Vá até a pasta do projeto.**
 3. **Crie um ambiente virtual:**
    python -m venv venv (Windows)
