@@ -49,6 +49,7 @@ python manage.py runserver
 Se preferir acessar a API RESTful, você pode usar o seguinte endpoint:
 
 Empresas: http://127.0.0.1:8000/empresas/
+<br>
 Funcionários: http://127.0.0.1:8000/funcionarios/
 
 
