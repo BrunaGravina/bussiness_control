@@ -15,11 +15,11 @@ Antes de rodar o projeto, verifique se você tem os seguintes pré-requisitos in
 
 Se você ainda não tem o Python instalado, pode fazer o download no site oficial.
 
-## Instalação
+## Instalação <br>
 
 Siga os passos abaixo para configurar o ambiente e instalar as dependências do projeto.
 
-1. **Clone o repositório:**
+1. **Clone o repositório:** <br>
    git clone https://github.com/BrunaGravina/bussiness_control.git
 2. **Vá até a pasta do projeto.**
 3. **Crie um ambiente virtual:**
@@ -29,20 +29,20 @@ Siga os passos abaixo para configurar o ambiente e instalar as dependências do 
 5. **Instale as dependências:**
    pip install -r requirements.txt
 
-## Configuração
+## Configuração <br>
 
-**Configuração do banco de dados:**
+**Configuração do banco de dados:** <br>
 
 O projeto usa um banco de dados SQLite por padrão, mas você pode configurar outro banco de dados como PostgreSQL, alterando as configurações no arquivo settings.py.
 
-**Obs:** Crie as migrações e aplique-as:
+**Obs:** Crie as migrações e aplique-as:  <br>
 python manage.py makemigrations
 python manage.py migrate
 
-**Crie um superusuário (caso queira utlizar o admin do Django):**
+**Crie um superusuário (caso queira utlizar o admin do Django):** <br>
 python manage.py createsuperuser
 
-**Rodando o Servidor**
+**Rodando o Servidor** <br>
 Para acessar o sistema , use o seguinte comando:
 python manage.py runserver
 
@@ -53,12 +53,12 @@ Empresas: http://127.0.0.1:8000/empresas/
 Funcionários: http://127.0.0.1:8000/funcionarios/
 
 
-**Testes**
+**Testes** <br>
 Para rodar os testes do projeto, use o comando abaixo:
 python manage.py test
 Os testes serão executados e o Django irá fornecer um relatório com os resultados.
 
-**Postman**
+**Postman** <br>
 Também é possível fazer requisições para a API através do postman:
 Entre na pasta postman e vá até collection.json, com esta collection importada para seu postman, você poderá executar um CRUD, lembre-se de rodar o servidor antes.
 
