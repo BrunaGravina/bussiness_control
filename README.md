@@ -1,6 +1,6 @@
 # Projeto Business Control
 
-Este é um sistema de controle de negócios desenvolvido com Django e Django REST Framework, focado no gerenciamento de empresas e funcionários. O projeto permite a criação, listagem, atualização e exclusão de empresas e funcionários.
+Este é um sistema de controle de negócios desenvolvido com Django e Django REST Framework, focado no gerenciamento de empresas e funcionários. O projeto permite a criação, listagem, atualização e exclusão (inativar) empresas e funcionários.
 
 Este projeto fornece funcionalidades para o gerenciamento de empresas e funcionários. Ele usa Django para a parte de back-end e Django REST Framework para fornecer uma API RESTful para interagir com os dados.
 
